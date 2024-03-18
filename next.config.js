@@ -1,14 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   images: {
     domains: [
       "images.unsplash.com",
       "aceternity.com",
+      "www.aceternity.com",
+      "cdn.aceternity.com",
       "img.freepik.com",
       "assets.aceternity.com",
-      "storyset.com"
+      "elements-cover-images-0.imgix.net"
     ]
   }
 };
-
-export default nextConfig;
