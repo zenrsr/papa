@@ -1,9 +1,4 @@
 import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
-import { auth, currentUser, useUser } from "@clerk/nextjs";
-
-type HeroParallaxDemoProps = {
-  userId: string | null;
-};
 
 export default function Home() {
   return (
